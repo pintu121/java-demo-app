@@ -14,12 +14,12 @@ enveironment {
             }
         }
     }
-    stages {
+   
         stage('Build code') {
             steps {
                 sh 'mvn clean deploy'
             }
         }
-    }
+    
 }
 
